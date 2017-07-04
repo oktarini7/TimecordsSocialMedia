@@ -1,0 +1,104 @@
+html{
+  position:relative; 
+  min-height: 100%;
+}
+body { 
+	margin: 0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	padding-bottom: 100px;
+}
+/* PAGE TOP */
+#pageTop {
+	background:url(../images/banner.png) repeat-x;
+	height: 90px;
+}
+#pageTop > #pageTopWrap {
+	width: 1000px;
+	margin: 0px auto;
+	height: 90px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo {
+	float: left;
+	height: 90px;
+	width: 90px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo > #pageTopLogoTop {
+	height: 13px;
+}
+#pageTop > #pageTopWrap > #pageTopRest {
+	float: left;
+	height: 90px;
+	width: 910px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 {
+	height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div {
+	margin-top: 8px;
+	text-align:right;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a {
+	color: #ffffff;
+	text-decoration: none;
+	margin-left: 12px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a:hover {
+	color: #e0e0e0;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 {
+	height: 44px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div {
+	margin-top: 2px;
+	padding: 4px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a {
+	display: block;
+	float: left;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 0px 16px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a:hover {
+	color: #e0e0e0;
+}
+#memSearch{
+	float: right;
+	width: 120px;
+}
+#searchUsername{
+	width: 120px;
+}
+#memSearchResults{
+	display: none;
+	width: 140px;
+	z-index: 5000;
+	background-color: #E7F1FF;
+	text-align: left;
+	position:fixed;
+	top:76px;
+	overflow-y:auto;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	max-height:100px;
+}
+/* PAGE MIDDLE */
+#pageMiddle{
+	width: 1000px;
+	margin: 0px auto;
+	margin-bottom: 120px;
+}
+/* PAGE BOTTOM */
+#pageBottom{
+	background: #3e93ff;
+	position: absolute;
+	bottom: 0px;
+	height: 40px;
+	padding: 0px;
+	padding-top: 15px;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+}
